@@ -7,9 +7,18 @@ public class MyFirstJavaProgram {
 	
 	public static void main(String[] args) {
 		
-		// START HERE
+		Robot Nolan = new Robot();
+	Nolan.setSpeed(20);
+	Nolan.setRandomPenColor();
+	Nolan.penDown();
+	Nolan.turn(90);
+	Nolan.move(50);
+	Nolan.setRandomPenColor();
+	Nolan.turn(90);
+	Nolan.move(50);
 	
-		
-		
+	
+	
+	
 	}
 }
